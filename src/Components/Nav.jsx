@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import NotesIcon from "@mui/icons-material/Notes";
 import { signOut } from "firebase/auth";
-import { auth } from "/src/config/firebase.jsx";
+import { auth } from "../config/firebase";
 
 function Nav({ loggedIn, setLoggedIn }) {
   const navigate = useNavigate();
